@@ -17,6 +17,7 @@
 	    		<th>TELEFONO</th>
 	    		<th>NOMBRE</th>
 	    		<th>APELLIDO</th>
+	    		<th>F.NACIMIENTO</th>
 	    		<th>EDAD</th>
 	    	</tr>
 	    	<tr th:each="alu:${listadoAlumno}"> 
@@ -27,6 +28,7 @@
 	    		<th th:text="${alu.fechanac}"></th>
 	    	</tr>
 	    </table>
+		
 		
 		<a href="menu">Volver al Menu</a>
 	</body>

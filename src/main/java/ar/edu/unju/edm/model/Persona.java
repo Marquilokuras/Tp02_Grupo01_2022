@@ -27,6 +27,7 @@ public class Persona {
 	
 	public String getEdad() {
 		
+		
 		return "La edad es: " ;
 	}
 	
