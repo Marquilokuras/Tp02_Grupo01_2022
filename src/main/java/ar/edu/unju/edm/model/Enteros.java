@@ -6,22 +6,22 @@ import org.springframework.stereotype.Component;
 public class Enteros {
 	
 	//variables locales
-	private int numero1;
+	private int enteros;
 	
 	public Enteros() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Enteros(int numero1) {
-		this.numero1 = numero1;
+	public Enteros(int enteros) {
+		this.enteros = enteros;
 	}
 
-	public int getNumero1() {
-		return numero1;
+	public int getEnteros() {
+		return enteros;
 	}
 
-	public void setNumero1(int numero1) {
-		this.numero1 = numero1;
+	public void setEnteros(int enteros) {
+		this.enteros = enteros;
 	}
-
+	
 }

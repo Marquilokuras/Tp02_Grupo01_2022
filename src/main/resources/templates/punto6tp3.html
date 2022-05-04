@@ -25,21 +25,21 @@
 	    		<th>Entero 10</th>
 	    	</tr>
 	    		
-	    	<tr th:each="alu:${listadoEnterosPunto6}"> 
-	    		<th th:text="${alu.numero1}"></th>
-	    		<th th:text="${alu.entero9}"></th>
-	    		<th th:text="${alu.entero8}"></th>
-	    		<th th:text="${alu.entero7}"></th>
-	    		<th th:text="${alu.entero6}"></th>
-	    		<th th:text="${alu.entero5}"></th>
-	    		<th th:text="${alu.entero4}"></th>
-	    		<th th:text="${alu.entero3}"></th>
-	    		<th th:text="${alu.entero2}"></th>
-	    		<th th:text="${alu.entero1}"></th>
+	    	<tr th:each="ent:${listadoEnterosPunto6}"> 
+	    		<th th:text="${ent.enteros10}"></th>
+	    		<th th:text="${ent.enteros9}"></th>
+	    		<th th:text="${ent.enteros8}"></th>
+	    		<th th:text="${ent.enteros7}"></th>
+	    		<th th:text="${ent.enteros6}"></th>
+	    		<th th:text="${ent.enteros5}"></th>
+	    		<th th:text="${ent.enteros4}"></th>
+	    		<th th:text="${ent.enteros3}"></th>
+	    		<th th:text="${ent.enteros2}"></th>
+	    		<th th:text="${ent.enteros1}"></th>
 	    	</tr>
 	    </table>
 		
-		<a href="menu">Volver al Menu</a>
+		<a href="/menu">Volver al Menu</a>
 	</body>
 
 </html>
