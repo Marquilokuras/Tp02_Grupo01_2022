@@ -18,7 +18,6 @@
 	    		<th>NOMBRE</th>
 	    		<th>APELLIDO</th>
 	    		<th>F.NACIMIENTO</th>
-	    		<th>EDAD</th>
 	    	</tr>
 	    	<tr th:each="alu:${listadoAlumno}"> 
 	    		<th th:text="${alu.dni}"></th>
@@ -28,7 +27,10 @@
 	    		<th th:text="${alu.fechanac}"></th>
 	    	</tr>
 	    </table>
-
+		<br>
+		<a href ="/calculoEdad">Calcular Edad</a>
+		<br>
+		<br>
 		<a href="menu">Volver al Menu</a>
 	</body>
 

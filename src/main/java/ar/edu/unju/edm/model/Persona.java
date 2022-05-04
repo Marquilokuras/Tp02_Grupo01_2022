@@ -25,10 +25,9 @@ public class Persona {
 		this.fecha = fecha;
 	}
 	
-	public String getEdad() {
+	public String CalcularEdad() {
 		
-		
-		return "La edad es: " ;
+		return "null";
 	}
 	
 }

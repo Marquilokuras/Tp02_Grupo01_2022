@@ -65,4 +65,6 @@ public class Alumno {
 		this.fechanac = fechanac;
 	}
 	
+	
+	
 }
