@@ -1,6 +1,7 @@
 package ar.edu.unju.edm.model;
 
 import java.time.LocalDate;
+import java.time.Period;
 
 import org.springframework.stereotype.Component;
 
@@ -65,5 +66,10 @@ public class Alumno {
 		this.fechanac = fechanac;
 	}
 	
-	
+	public String getEdad() {
+		String anio;
+	    Period edad = Period.between(fechanac, LocalDate.now());
+	    anio = " " + edad.getYears();
+		return anio;
+	}
 }
