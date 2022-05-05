@@ -16,7 +16,7 @@ public class PersonaController{
 	
 	//variables
 	Persona persona;
-	
+	 
 	@GetMapping("/calculoEdad")
 	public ModelAndView getEdad(@RequestParam (name = "fecha") String fecha) {
 		//Formato por defecto del localDate "Año-Dia-Mes"

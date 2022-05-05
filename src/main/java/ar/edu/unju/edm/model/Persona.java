@@ -1,11 +1,14 @@
 package ar.edu.unju.edm.model;
 
 import java.time.LocalDate;
+import java.time.Period;
+
 import org.springframework.stereotype.Component;
 
 @Component
 public class Persona {
 
+	
 	private LocalDate fecha;
 	
 	public Persona() {
@@ -27,7 +30,14 @@ public class Persona {
 	
 	public String CalcularEdad() {
 		
-		return "null";
+		String anio;
+	    Period edad = Period.between(this.fecha, LocalDate.now());
+	    anio=String.format("%d años, %d meses y %d días",
+	    edad.getYears(),
+	    edad.getMonths(),
+	    edad.getDays());
+	    
+		return anio;
 	}
 	
 }
