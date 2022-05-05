@@ -69,7 +69,7 @@ public class Alumno {
 	public String getEdad() {
 		String anio;
 	    Period edad = Period.between(fechanac, LocalDate.now());
-	    anio = "La edad es " + edad.getYears();
+	    anio = " " + edad.getYears();
 		return anio;
 	}
 }
