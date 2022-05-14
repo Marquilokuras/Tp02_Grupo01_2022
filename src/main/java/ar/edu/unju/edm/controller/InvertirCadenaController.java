@@ -17,7 +17,7 @@ public class InvertirCadenaController {
 	
 	public String getInvertirCadenaPage(Model model) {
 		
-		unaCadena.setCadena("HOLA MUNDO, SOY AGUS");
+		unaCadena.setCadena("MARAZ AGUSTINA"); 
 		
 		model.addAttribute("punto5tp03",unaCadena.invertir());
 		
