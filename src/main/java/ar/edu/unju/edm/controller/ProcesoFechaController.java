@@ -153,7 +153,7 @@ public class ProcesoFechaController {
 
 	// b_6 y b_7
 	@GetMapping("/procesoFechaB6")
-	public ModelAndView getProcesoFecha6(@RequestParam(name = "fecha1") String fecha1, @RequestParam(name = "fecha2") String fecha2) throws Exception {
+	public ModelAndView getProcesoFecha6(@RequestParam(name = "fecha1") String fecha1, @RequestParam(name = "fecha2") String fecha2) throws DateTimeException {
 		ModelAndView modelView = new ModelAndView("/procesoFechaB6");
 
 		ProcesoFecha pf5 = new ProcesoFecha();
@@ -169,8 +169,8 @@ public class ProcesoFechaController {
 
 			return modelView;
 			
-		} catch (Exception e) {
-			throw new Exception("¡¡¡ DEBE INGRESAR UNA FECHA VALIDA !!!");
+		} catch (DateTimeException e) {
+			throw new DateTimeException("¡¡¡ DEBE INGRESAR UNA FECHA VÁLIDA !!!");
 		}
 
 		
