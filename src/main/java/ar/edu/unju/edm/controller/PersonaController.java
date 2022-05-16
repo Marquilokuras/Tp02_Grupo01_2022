@@ -15,7 +15,7 @@ public class PersonaController {
 	@Autowired Persona persona;
 	@GetMapping("/calculoEdad")
 	public ModelAndView getEdad (@RequestParam (name= "fecha") String fecha) {
-		//formato por defecto de local date (aÃ±o-mes-dia)
+	
 		persona.setFecha(LocalDate.parse(fecha));
 		
 		//calcular la edad
