@@ -9,7 +9,7 @@ import ar.edu.unju.edm.until.Arreglo;
 
 @Controller
 public class ParImparController {
-	
+
 	@GetMapping ("/mostrarParImpar")
 	public String getArreglo(Model model) {
 		

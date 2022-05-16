@@ -3,9 +3,10 @@ package ar.edu.unju.edm.until;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import ar.edu.unju.edm.model.ParImpar;
-
-
+@Component
 public class Arreglo {
 	private List<ParImpar> enteros = new ArrayList<>();
 	public Arreglo() {
