@@ -12,15 +12,14 @@ public class ParImparController {
 	
 	@GetMapping ("/mostrarParImpar")
 	public String getArreglo(Model model) {
-		//creacion de enteros
 		
-		ParImpar entero1 = new ParImpar(48);
-		ParImpar entero2 = new ParImpar(50);
-		ParImpar entero3 = new ParImpar(37);
-		ParImpar entero4 = new ParImpar(102);
-		ParImpar entero5 = new ParImpar(199);
+		ParImpar entero1 = new ParImpar(475);
+		ParImpar entero2 = new ParImpar(3254);
+		ParImpar entero3 = new ParImpar(65);
+		ParImpar entero4 = new ParImpar(13);
+		ParImpar entero5 = new ParImpar(17);
 		ParImpar entero6 = new ParImpar(1004);
-		ParImpar entero7 = new ParImpar(2004);
+		ParImpar entero7 = new ParImpar(24);
 		ParImpar entero8 = new ParImpar(2003);
 		
 

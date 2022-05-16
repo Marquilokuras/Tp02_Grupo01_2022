@@ -25,6 +25,7 @@ public class ParImpar {
 	public ParImpar(int enteros) {
 		this.enteros = enteros;
 	}
+
 }
 
 	
