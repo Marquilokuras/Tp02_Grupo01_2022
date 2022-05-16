@@ -14,11 +14,11 @@ public class ParImparController {
 	public String getArreglo(Model model) {
 		//creacion de enteros
 		
-		ParImpar entero1 = new ParImpar(1786);
-		ParImpar entero2 = new ParImpar(654);
-		ParImpar entero3 = new ParImpar(321);
-		ParImpar entero4 = new ParImpar(89);
-		ParImpar entero5 = new ParImpar(2);
+		ParImpar entero1 = new ParImpar(176);
+		ParImpar entero2 = new ParImpar(64);
+		ParImpar entero3 = new ParImpar(31);
+		ParImpar entero4 = new ParImpar(8);
+		ParImpar entero5 = new ParImpar(286);
 		ParImpar entero6 = new ParImpar(79);
 		ParImpar entero7 = new ParImpar(34);
 		ParImpar entero8 = new ParImpar(98);
