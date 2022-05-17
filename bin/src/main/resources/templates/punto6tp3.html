@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th ="http://www.thymeleaf.org">
+
+	<head>
+	
+		<meta charset="UTF-8">
+		<title>PUNTO N°6 TPN°3</title>
+		
+	</head>
+	
+	<body>
+	
+	    <h1>Listado de Numeros Enteros</h1>
+	    <table>
+	    	<tr>
+	    		<th>Entero 1</th>
+
+	    	</tr>
+	    		
+	    	<tr th:each="ent:${listadoEnterosPunto6}"> 
+	    		<th th:text="${ent.enteros}"></th>
+	    	</tr>
+	    </table>
+		
+		<a href="/menu">Volver al Menu</a>
+	</body>
+
+</html>

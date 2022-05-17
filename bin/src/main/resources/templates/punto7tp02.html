@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th ="http://www.thymeleaf.org">
+
+	<head>
+	
+		<meta charset="UTF-8">
+		<title>PUNTO N°7</title>
+		
+	</head>
+	
+	<body>
+	
+	    <h1>Listado de Alumnos</h1>
+	    <table>
+	    	<tr>
+	    		<th>DNI</th>
+	    		<th>TELEFONO</th>
+	    		<th>NOMBRE</th>
+	    		<th>APELLIDO</th>
+	    		<th>EDAD</th>
+	    	</tr>
+	    	<tr th:each="alu:${listadoAlumno}"> 
+	    		<th th:text="${alu.dni}"></th>
+	    		<th th:text="${alu.tel}"></th>
+	    		<th th:text="${alu.nombre}"></th>
+	    		<th th:text="${alu.apellido}"></th>
+	    		<th th:text="${alu.fechanac}"></th>
+	    	</tr>
+	    </table>
+		
+		<a href="menu">Volver al Menu</a>
+	</body>
+
+</html>
