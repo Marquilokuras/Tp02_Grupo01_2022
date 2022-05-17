@@ -8,19 +8,19 @@ import org.springframework.stereotype.Component;
 import ar.edu.unju.edm.model.ParImpar;
 @Component
 public class Arreglo {
-	private List<ParImpar> enteros = new ArrayList<>();
+	private List<ParImpar> numeros = new ArrayList<>();
 	public Arreglo() {
 		// TODO Auto-generated constructor stub
 	}
-	public List<ParImpar> getEnteros() {
-		return enteros;
+	public List<ParImpar> getNumeros() {
+		return numeros;
 	}
-	public void setEnteros(List<ParImpar> enteros) {
-		this.enteros = enteros;
+	public void setNumeros(List<ParImpar> numeros) {
+		this.numeros = numeros;
 	}
-	public Arreglo(List<ParImpar> enteros) {
+	public Arreglo(List<ParImpar> numeros) {
 		super();
-		this.enteros = enteros;
+		this.numeros = numeros;
 }
 	
 }
