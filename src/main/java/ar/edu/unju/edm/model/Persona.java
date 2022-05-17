@@ -145,13 +145,13 @@ public class Persona {
 		      break;
 		      case "MARCH":
 		        if(dia1>=21){
-		          estacion="OtoÃ±o";
+		          estacion="Otoño";
 		        }else{
 		          estacion="Verano";
 		        }
 		      break;
 		      case "APRIL":
-		        estacion="OtoÃ±o";
+		        estacion="Otoño";
 		      break;
 		      case "MAY":
 		       estacion="OtoÃ±o";
@@ -160,7 +160,7 @@ public class Persona {
 		        if(dia1>=21){
 		          estacion="Invierno";
 		        }else{
-		          estacion="OtoÃ±o";
+		          estacion="Otoño";
 		        }
 		      break;
 		      case "JULY":
